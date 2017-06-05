@@ -1,12 +1,23 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
     <head>
-        <title></title>
+        <title>Codigo pa' Mario</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
-        <p>Sup World!</p>
+        <div>
+            <p>Sup World!</p>            
+            A: <input type="number" name="numA" id="numA">
+            <br>
+            B: <input type="number" name="numB" id="numB">
+            <br>
+            C: <input type="number" name="numC" id="numC">
+            <br><br>
+            <input type="submit" name="Sumbit" value="Cual es el numero Maximo?" onclick="maxNumber()">
+            <p id="numMax"></p>
+        </div>
+        <script src="script/marioMath.js"></script>
     </body>
 </html>
